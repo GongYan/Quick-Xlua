@@ -5,7 +5,7 @@
 
 local BaseScene = BaseClass("BaseScene")
 
--- 构造函数，别重写，初始化放OnInit
+-- 构造函数，别重写，初始化放OnCreate
 local function __init(self, scene_config)
 	-- 场景配置
 	self.scene_config = scene_config

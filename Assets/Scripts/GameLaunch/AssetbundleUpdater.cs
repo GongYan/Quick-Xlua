@@ -18,7 +18,7 @@ public class AssetbundleUpdater : MonoBehaviour
 {
     static int MAX_DOWNLOAD_NUM = 5;
     static int UPDATE_SIZE_LIMIT = 5 * 1024 * 1024;
-    static string APK_FILE_PATH = "/xluaframework_{0}_{1}.apk";
+    static string APK_FILE_PATH = "/quickxlua_{0}_{1}.apk";
     
     string resVersionPath = null;
     string noticeVersionPath = null;
@@ -205,7 +205,7 @@ public class AssetbundleUpdater : MonoBehaviour
 #endif
     }
     #endregion
-
+    
     #region 服务器地址获取以及检测版本更新
 
     IEnumerator GetUrlListAndCheckUpdate(bool isInternalVersion)

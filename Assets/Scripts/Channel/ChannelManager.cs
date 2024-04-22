@@ -78,7 +78,7 @@ namespace GameChannel
         {
             if (channel == null)
             {
-                return "xluaframework";
+                return "quickxlua";
             }
             return channel.GetProductName();
         }

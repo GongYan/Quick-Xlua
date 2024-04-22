@@ -22,12 +22,12 @@ namespace GameChannel
 
         public override string GetBundleID()
         {
-            return "com.chivas.xluaframework";
+            return "com.chivas.quickxlua";
         }
 
         public override string GetProductName()
         {
-            return "xluaframework";
+            return "1xquickxlua";
         }
 
         public override bool IsInternalChannel()
